@@ -1,7 +1,7 @@
 # compound-account-service
 - use eventscanner.py to collect all transfer events involving COMP
     - starts off from the last block scanned
-    - continually updates using a service file
+    - continually update using a service file
 - we place this collection of accounts in MongoDB
     - one collection contains all transfer events
     - another collection contains details of accounts in a real time fashion, formatted like COMP's API

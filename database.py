@@ -26,4 +26,4 @@ client = MongoClient('localhost', 27017)
 db = client.test_database
 
 import datetime 
-# post = 
+# post = {"address":"0x...00"}

@@ -616,7 +616,7 @@ if __name__ == "__main__":
         # Note that our chain reorg safety blocks cannot go negative
         # start_block = max(state.get_last_scanned_block() - chain_reorg_safety_blocks, 0)
         compound_genesis_block = 9601359
-        start_block = 12440000
+        start_block = 12448000
         end_block = scanner.get_suggested_scan_end_block()
         blocks_to_scan = end_block - start_block
 
