@@ -11,3 +11,5 @@
 - we update the correspond collections (accounts, and account-info) as we go
     - as this is a service it will run in the background
     - using COMP's existing API as bootstrapping mechanism, we can save a lot on resources, make sure not to abuse it.
+
+![alt text](https://github.com/dirtybits/compound-account-service/blob/main/compound_service_architecture.png)
